@@ -68,3 +68,4 @@
   - `storage/reports/.gitkeep`
 - [x] `.env.example` verified with standard local configuration and version `1.0.0`.
 - [x] Version `1.0.0` synchronized across `backend/app/core/config.py`, `frontend/package.json`, and `.env.example`.
+

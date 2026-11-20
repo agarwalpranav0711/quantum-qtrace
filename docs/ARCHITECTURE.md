@@ -86,3 +86,4 @@ Compiles frozen investigation snapshots into multi-page PDFs using ReportLab:
 - Two-pass `NumberedCanvas` dynamically calculates total page counts ("Page X of Y").
 - Running headers, confidentiality notices, and embedded cryptographic verification seals.
 - Categorizes findings into Facts, Observations, Indicators, Hypotheses, and Conclusions.
+

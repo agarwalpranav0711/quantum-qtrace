@@ -244,3 +244,4 @@ Compiles an official forensic dossier across case findings.
     "generated_at": "2026-11-20T12:09:00Z"
   }
   ```
+

@@ -125,3 +125,4 @@ The Q-TRACE user interface is organized into five primary functional studios acc
 - **Backend Connection Failed:** Ensure the FastAPI server is running on `http://localhost:8000`. Run `python -m backend.main` from repository root.
 - **Image Upload Rejected:** Confirm the file is a valid image (`JPEG`, `PNG`, `TIFF`, `WEBP`) and below the $50\text{ MB}$ limit. Verify the file is not corrupted or truncated.
 - **Quantum Simulation Latency:** Quantum simulations with $\ge 16$ qubits execute on the local CPU Aer simulator. Ensure no other heavy computational processes are consuming RAM.
+

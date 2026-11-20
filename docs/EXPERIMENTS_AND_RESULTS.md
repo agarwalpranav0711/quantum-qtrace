@@ -94,3 +94,4 @@ Measurements recorded on a standard workstation (AMD Ryzen 7 / Intel Core i7, 16
 | Interactive Canvas Tile Render | 4K Viewport (Zoom/Pan) | 14 ms | 45 MB | 60 FPS |
 | Quantum Micro-Patch Compare | Two $4 \times 4$ patches (2048 shots) | 95 ms | 62 MB | 10.5 comparisons/sec |
 | Multi-Page Dossier PDF Generation | 8-page Case Dossier w/ 6 heatmaps | 410 ms | 82 MB | 2.4 reports/sec |
+

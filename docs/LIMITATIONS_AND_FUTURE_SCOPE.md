@@ -66,3 +66,4 @@ In digital forensics and quantum information science, clear articulation of tech
 - **Automated Vehicle Part Segmentation:** Utilizing lightweight local ONNX models to automatically isolate bumpers, headlights, and windshields into structured forensic ROIs.
 - **Physical QPU Hardware Dispatch:** Adding optional authenticated API connectors to execute micro-patch fidelity circuits on physical IBM Quantum superconducting processors with readout error mitigation.
 - **Expanded Video Forensics:** Extending the pipeline to analyze temporal frame-to-frame compression discontinuities in dashcam collision footage.
+

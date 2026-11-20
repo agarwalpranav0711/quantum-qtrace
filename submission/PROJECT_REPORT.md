@@ -80,3 +80,4 @@ On 250 micro-patch pairs, Quantum Fidelity demonstrated a dynamic separation $\D
 
 ### 5. Conclusion & Future Outlook
 Q-TRACE provides a complete, robust, local-first digital forensics workstation bridging classical signal processing and quantum state simulation. Future work will extend the platform toward hardware QPU execution and Vision Transformer (ViT) deep feature embeddings.
+

@@ -82,3 +82,4 @@ Null bytes and control characters are stripped prior to filesystem operations.
    - When generating external dossiers, investigators can selectively redact high-precision GPS coordinates, owner names, and serial numbers.
 3. **Local Database Security:**
    - SQLite databases are created with standard local file permissions and exclude network-accessible database ports.
+

@@ -81,3 +81,4 @@ To achieve a bounded total variation error $\epsilon \le 0.02$ with confidence $
 $$M_{\text{required}} \ge \frac{\ln(2N/\delta)}{2 \epsilon^2} = \frac{\ln(32 / 0.01)}{2 (0.02)^2} = \frac{8.0709}{0.0008} \approx 10,088 \text{ shots}$$
 
 In Q-TRACE, default simulation executes with $M = 2048$ to $8192$ shots, striking an empirical balance between statistical convergence ($R^2 > 0.998$ against analytical statevectors) and local CPU execution latency ($< 150\text{ ms}$).
+

@@ -55,3 +55,4 @@ Our Part 9 empirical testing showed that classical forensic filters (especially 
 
 ## 2. 60-Second Elevator Pitch
 > *"Q-TRACE is an offline, local-first digital image forensics workstation designed for automobile insurance fraud investigation. It unifies a WORM evidence vault with SHA-256 sealing, a six-technique classical forensics analysis engine, a dual-viewport synchronized Canvas2D comparison suite, and an experimental Qiskit quantum state micro-patch simulator. Rather than making automated fraud accusations, Q-TRACE acts as a rigorous decision-support tool, helping examiners identify copy-move duplication, foreign splicing, and compression anomalies with full chain-of-custody defensibility."*
+

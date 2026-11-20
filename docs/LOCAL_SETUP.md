@@ -117,3 +117,4 @@ Get-Process -Name python, node -ErrorAction SilentlyContinue | Where-Object { $_
 | Port 5173 already in use | Previous Vite server running | Run `npx kill-port 5173` or launch Vite on alternate port |
 | `ModuleNotFoundError: backend` | Python path does not include project root | Ensure you run commands from the project root or execute with `python -m` |
 | `sqlite3.OperationalError: database locked` | Concurrency lock on `qtrace.db` | Verify SQLite WAL mode is enabled; ensure no locked external database browser is open |
+
