@@ -130,11 +130,15 @@ class NoiseAnalyzer(ForensicTechnique):
                 )
 
                 # 3. Detect Anomalous Variance Discrepancies
-                # Flag blocks where |variance - median| > threshold * std
-                high_thresh = median_variance + variance_threshold_sigma * std_variance
-                low_thresh = max(0.1, median_variance - variance_threshold_sigma * std_variance)
+                # Flag blocks where |variance - median| > threshold * std only when real noise variance exists
+                if std_variance > 0.5:
+                    high_thresh = median_variance + variance_threshold_sigma * std_variance
+                    low_thresh = max(0.0, median_variance - variance_threshold_sigma * std_variance)
+                    anomalous_blocks = ((variance_map > high_thresh) | (variance_map < low_thresh)) & valid_mask
+                else:
+                    high_thresh = median_variance + 1.0
+                    anomalous_blocks = np.zeros_like(variance_map, dtype=bool)
 
-                anomalous_blocks = ((variance_map > high_thresh) | (variance_map < low_thresh)) & valid_mask
                 anomaly_count = int(np.sum(anomalous_blocks))
                 metrics["anomalous_blocks_count"] = anomaly_count
 
