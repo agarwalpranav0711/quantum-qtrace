@@ -1,0 +1,5 @@
+scenario_id,attack_type,description,ela_rois_count,ela_latency_ms,ela_precision,ela_recall,ela_f1,ela_iou,noise_rois_count,noise_latency_ms,noise_precision,noise_recall,noise_f1,noise_iou,cmfd_rois_count,cmfd_latency_ms,cmfd_precision,cmfd_recall,cmfd_f1,cmfd_iou,fused_rois_count,fusion_latency_ms,fused_precision,fused_recall,fused_f1,fused_iou
+SYN-SPLICE-01,Splicing,Foreign patch inserted with compression difference Q95 vs Q40,1,40.82,0.4375,0.1143,0.1812,0.0996,1,20.61,0.7656,1.0,0.8673,0.7656,0,27.2,0.0,0.0,0.0,0.0,1,0.06,0.7656,1.0,0.8673,0.7656
+SYN-CMFD-01,Copy-Move,High-texture dent feature duplicated across panel,3,20.84,0.0312,0.0277,0.0293,0.0149,2,17.04,0.3519,0.9343,0.5113,0.3434,2,24.28,0.0487,0.8691,0.0923,0.0484,5,0.13,0.0534,0.9738,0.1013,0.0534
+SYN-NOISE-01,Noise Inconsistency,Localized Gaussian smoothing destroying sensor noise,0,20.87,0.0,0.0,0.0,0.0,1,17.09,0.8984,0.7667,0.8273,0.7055,0,13.75,0.0,0.0,0.0,0.0,1,0.06,0.8984,0.7667,0.8273,0.7055
+SYN-CLEAN-01,Authentic Control,Unmanipulated authentic metallic panel,1,15.38,0.0,0.0,0.0,0.0,0,20.5,0.0,0.0,0.0,0.0,0,13.39,0.0,0.0,0.0,0.0,1,0.06,0.0,0.0,0.0,0.0

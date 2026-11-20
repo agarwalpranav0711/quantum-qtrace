@@ -1,0 +1,90 @@
+[
+  {
+    "num_qubits": 8,
+    "num_amplitudes": 256,
+    "total_bytes": 4096,
+    "formatted_binary": "4.00 KiB",
+    "formatted_decimal": "4.10 KB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 12,
+    "num_amplitudes": 4096,
+    "total_bytes": 65536,
+    "formatted_binary": "64.00 KiB",
+    "formatted_decimal": "65.54 KB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 16,
+    "num_amplitudes": 65536,
+    "total_bytes": 1048576,
+    "formatted_binary": "1.00 MiB",
+    "formatted_decimal": "1.05 MB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 18,
+    "num_amplitudes": 262144,
+    "total_bytes": 4194304,
+    "formatted_binary": "4.00 MiB",
+    "formatted_decimal": "4.19 MB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 20,
+    "num_amplitudes": 1048576,
+    "total_bytes": 16777216,
+    "formatted_binary": "16.00 MiB",
+    "formatted_decimal": "16.78 MB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 24,
+    "num_amplitudes": 16777216,
+    "total_bytes": 268435456,
+    "formatted_binary": "256.00 MiB",
+    "formatted_decimal": "268.44 MB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 28,
+    "num_amplitudes": 268435456,
+    "total_bytes": 4294967296,
+    "formatted_binary": "4.00 GiB",
+    "formatted_decimal": "4.29 GB",
+    "is_simulatable_on_laptop": true
+  },
+  {
+    "num_qubits": 30,
+    "num_amplitudes": 1073741824,
+    "total_bytes": 17179869184,
+    "formatted_binary": "16.00 GiB",
+    "formatted_decimal": "17.18 GB",
+    "is_simulatable_on_laptop": false
+  },
+  {
+    "num_qubits": 32,
+    "num_amplitudes": 4294967296,
+    "total_bytes": 68719476736,
+    "formatted_binary": "64.00 GiB",
+    "formatted_decimal": "68.72 GB",
+    "is_simulatable_on_laptop": false
+  },
+  {
+    "num_qubits": 42,
+    "num_amplitudes": 4398046511104,
+    "total_bytes": 70368744177664,
+    "formatted_binary": "64.00 TiB",
+    "formatted_decimal": "70.37 TB",
+    "is_simulatable_on_laptop": false
+  },
+  {
+    "num_qubits": 48,
+    "num_amplitudes": 281474976710656,
+    "total_bytes": 4503599627370496,
+    "formatted_binary": "4.00 PiB",
+    "formatted_decimal": "4.50 PB",
+    "is_simulatable_on_laptop": false
+  }
+]

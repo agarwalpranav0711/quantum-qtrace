@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-11-20T12:26:34Z",
+  "configurations_evaluated": 9,
+  "summary_by_configuration": {
+    "Single-ELA": {
+      "mean_forgery_recall": 0.0473,
+      "mean_forgery_iou": 0.0382,
+      "mean_forgery_f1": 0.0702,
+      "clean_control_fp_pixels": 1024
+    },
+    "Single-Noise": {
+      "mean_forgery_recall": 0.9003,
+      "mean_forgery_iou": 0.6048,
+      "mean_forgery_f1": 0.7353,
+      "clean_control_fp_pixels": 0
+    },
+    "Single-CMFD": {
+      "mean_forgery_recall": 0.2897,
+      "mean_forgery_iou": 0.0161,
+      "mean_forgery_f1": 0.0308,
+      "clean_control_fp_pixels": 0
+    },
+    "Pairwise-ELA+Noise-Union": {
+      "mean_forgery_recall": 0.9096,
+      "mean_forgery_iou": 0.5992,
+      "mean_forgery_f1": 0.729,
+      "clean_control_fp_pixels": 1024
+    },
+    "Pairwise-ELA+Noise-Consensus": {
+      "mean_forgery_recall": 0.3333,
+      "mean_forgery_iou": 0.2552,
+      "mean_forgery_f1": 0.2891,
+      "clean_control_fp_pixels": 0
+    },
+    "Pairwise-ELA+CMFD-Union": {
+      "mean_forgery_recall": 0.3278,
+      "mean_forgery_iou": 0.0492,
+      "mean_forgery_f1": 0.091,
+      "clean_control_fp_pixels": 1024
+    },
+    "Pairwise-Noise+CMFD-Union": {
+      "mean_forgery_recall": 0.9135,
+      "mean_forgery_iou": 0.5082,
+      "mean_forgery_f1": 0.5986,
+      "clean_control_fp_pixels": 0
+    },
+    "Full-Ensemble-Union": {
+      "mean_forgery_recall": 0.9135,
+      "mean_forgery_iou": 0.5082,
+      "mean_forgery_f1": 0.5986,
+      "clean_control_fp_pixels": 1024
+    },
+    "Full-Ensemble-Consensus-2+": {
+      "mean_forgery_recall": 0.3333,
+      "mean_forgery_iou": 0.2552,
+      "mean_forgery_f1": 0.2891,
+      "clean_control_fp_pixels": 0
+    }
+  },
+  "raw_evaluations_count": 36
+}

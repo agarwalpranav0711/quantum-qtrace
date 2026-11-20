@@ -1,0 +1,5 @@
+attack_type,perturbation,ela_rois,precision,recall,f1,iou
+Splicing,JPEG Quality 50,0,0.0,0.0,0.0,0.0
+Splicing,JPEG Quality 70,0,0.0,0.0,0.0,0.0
+Splicing,JPEG Quality 85,0,0.0,0.0,0.0,0.0
+Splicing,JPEG Quality 95,2,0.4911,0.1796,0.263,0.1514

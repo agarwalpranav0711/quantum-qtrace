@@ -1,0 +1,45 @@
+{
+  "shots": 1024,
+  "classical_mean_seconds": 6.36672e-05,
+  "classical_mean_nanoseconds": 63667.2,
+  "quantum_16q_mean_seconds": 0.08813171999936457,
+  "quantum_12q_mean_seconds": 0.039623719999508464,
+  "classical_speedup_vs_16q": 1384.2562575292234,
+  "classical_speedup_vs_12q": 622.3568807723359,
+  "resources_16q": {
+    "architecture_name": "16-qubit NEQR Dedicated Register",
+    "num_qubits": 16,
+    "num_clbits": 16,
+    "circuit_depth": 119,
+    "total_gate_count": 219,
+    "gate_counts_by_type": {
+      "x": 128,
+      "mcx": 63,
+      "measure": 16,
+      "cx": 8,
+      "h": 4
+    },
+    "two_qubit_gate_count": 8,
+    "multi_controlled_gate_count": 63,
+    "raw_statevector_memory_bytes": 1048576,
+    "simulation_runtime_seconds": 0.0
+  },
+  "resources_12q": {
+    "architecture_name": "12-qubit NEQR In-Place Register",
+    "num_qubits": 12,
+    "num_clbits": 12,
+    "circuit_depth": 119,
+    "total_gate_count": 211,
+    "gate_counts_by_type": {
+      "x": 128,
+      "mcx": 63,
+      "measure": 12,
+      "h": 4,
+      "cx": 4
+    },
+    "two_qubit_gate_count": 4,
+    "multi_controlled_gate_count": 63,
+    "raw_statevector_memory_bytes": 65536,
+    "simulation_runtime_seconds": 0.0
+  }
+}

@@ -1,0 +1,9 @@
+case_id,description,expected_changed_count,shots,16q_is_exact_match,16q_observed_coords,16q_runtime_seconds,16q_gate_count,16q_depth,12q_is_exact_match,12q_observed_coords,12q_runtime_seconds,12q_gate_count,12q_depth
+TC-01-IDENTICAL,Identical gradient image pair (zero differences),0,1024,True,16,0.022819400001026224,220,120,True,16,0.010193199996137992,212,120
+TC-02-SINGLE-PIXEL,"Single-pixel change at (row 1, col 2) from 7 to 12 (XOR=11)",1,1024,True,16,0.014820799995504785,219,119,True,16,0.007917900002212264,211,119
+TC-03-MULTI-PIXEL,Four sparse pixel changes across quadrants,4,1024,True,16,0.014441100000112783,215,116,True,16,0.008047600000281818,207,116
+TC-04-FULL-CHANGE,Every pixel modified via 4-bit inversion (16 differences),16,1024,True,16,0.013787800002319273,218,120,True,16,0.008326999995915685,210,120
+TC-05-BOUNDARY-CORNERS,Modifications restricted strictly to the 4 corners,4,1024,True,16,0.014470599999185652,224,125,True,16,0.008230100000218954,216,125
+TC-06-MAX-DIFFERENCE,All-zero image vs All-fifteen image (Maximum XOR=15),16,1024,True,16,0.010922400004346855,156,94,True,16,0.00630789999559056,148,94
+TC-07-ZERO-IMAGE-PAIR,All-zero image compared against all-zero image,0,1024,True,16,0.007920399999420624,28,3,True,16,0.006599899999855552,20,2
+TC-08-RANDOM-SEED-42,Reproducible random image pair generated with seed 42,3,1024,True,16,0.01470320000225911,224,125,True,16,0.00799389999883715,216,125

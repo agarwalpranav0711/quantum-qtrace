@@ -1,0 +1,9 @@
+{
+  "classical_xor_mean_us": 76.01,
+  "classical_xor_std_us": 20.52,
+  "16q_circuit_build_mean_ms": 10.46,
+  "16q_aer_simulation_mean_ms": 89.97,
+  "16q_reconstruction_mean_ms": 0.23,
+  "16q_total_pipeline_mean_ms": 100.66,
+  "classical_speed_advantage_ratio": 1324.3
+}

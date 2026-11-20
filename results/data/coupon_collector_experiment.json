@@ -1,0 +1,112 @@
+[
+  {
+    "shots": 16,
+    "trials": 50,
+    "mean_observed_coordinates": 10.16,
+    "std_observed_coordinates": 1.419,
+    "empirical_prob_full_coverage": 0.0,
+    "exact_prob_full_coverage": 0.0,
+    "poisson_prob_full_coverage": 0.00278,
+    "expected_missing_pixels": 5.84
+  },
+  {
+    "shots": 32,
+    "trials": 50,
+    "mean_observed_coordinates": 14.22,
+    "std_observed_coordinates": 1.119,
+    "empirical_prob_full_coverage": 0.1,
+    "exact_prob_full_coverage": 0.07344,
+    "poisson_prob_full_coverage": 0.11471,
+    "expected_missing_pixels": 1.78
+  },
+  {
+    "shots": 54,
+    "trials": 50,
+    "mean_observed_coordinates": 15.48,
+    "std_observed_coordinates": 0.608,
+    "empirical_prob_full_coverage": 0.54,
+    "exact_prob_full_coverage": 0.59097,
+    "poisson_prob_full_coverage": 0.5784,
+    "expected_missing_pixels": 0.52
+  },
+  {
+    "shots": 75,
+    "trials": 50,
+    "mean_observed_coordinates": 15.9,
+    "std_observed_coordinates": 0.3,
+    "empirical_prob_full_coverage": 0.9,
+    "exact_prob_full_coverage": 0.87881,
+    "poisson_prob_full_coverage": 0.86299,
+    "expected_missing_pixels": 0.1
+  },
+  {
+    "shots": 100,
+    "trials": 50,
+    "mean_observed_coordinates": 15.98,
+    "std_observed_coordinates": 0.14,
+    "empirical_prob_full_coverage": 0.98,
+    "exact_prob_full_coverage": 0.975,
+    "poisson_prob_full_coverage": 0.96958,
+    "expected_missing_pixels": 0.02
+  },
+  {
+    "shots": 150,
+    "trials": 50,
+    "mean_observed_coordinates": 16.0,
+    "std_observed_coordinates": 0.0,
+    "empirical_prob_full_coverage": 1.0,
+    "exact_prob_full_coverage": 0.999,
+    "poisson_prob_full_coverage": 0.99864,
+    "expected_missing_pixels": 0.0
+  },
+  {
+    "shots": 155,
+    "trials": 50,
+    "mean_observed_coordinates": 16.0,
+    "std_observed_coordinates": 0.0,
+    "empirical_prob_full_coverage": 1.0,
+    "exact_prob_full_coverage": 0.99928,
+    "poisson_prob_full_coverage": 0.99901,
+    "expected_missing_pixels": 0.0
+  },
+  {
+    "shots": 200,
+    "trials": 50,
+    "mean_observed_coordinates": 16.0,
+    "std_observed_coordinates": 0.0,
+    "empirical_prob_full_coverage": 1.0,
+    "exact_prob_full_coverage": 0.99996,
+    "poisson_prob_full_coverage": 0.99994,
+    "expected_missing_pixels": 0.0
+  },
+  {
+    "shots": 256,
+    "trials": 50,
+    "mean_observed_coordinates": 16.0,
+    "std_observed_coordinates": 0.0,
+    "empirical_prob_full_coverage": 1.0,
+    "exact_prob_full_coverage": 1.0,
+    "poisson_prob_full_coverage": 1.0,
+    "expected_missing_pixels": 0.0
+  },
+  {
+    "shots": 512,
+    "trials": 50,
+    "mean_observed_coordinates": 16.0,
+    "std_observed_coordinates": 0.0,
+    "empirical_prob_full_coverage": 1.0,
+    "exact_prob_full_coverage": 1.0,
+    "poisson_prob_full_coverage": 1.0,
+    "expected_missing_pixels": 0.0
+  },
+  {
+    "shots": 1024,
+    "trials": 50,
+    "mean_observed_coordinates": 16.0,
+    "std_observed_coordinates": 0.0,
+    "empirical_prob_full_coverage": 1.0,
+    "exact_prob_full_coverage": 1.0,
+    "poisson_prob_full_coverage": 1.0,
+    "expected_missing_pixels": 0.0
+  }
+]

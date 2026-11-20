@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-11-20T12:26:23Z",
+  "coupon_collector_expected_shots": 54.09,
+  "coupon_collector_analysis": [
+    {
+      "shots": 64,
+      "theoretical_exact_prob": 0.76518,
+      "theoretical_poisson_approx": 0.74598,
+      "empirical_16q_avg_observed": 15.4,
+      "empirical_16q_full_coverage_pct": 40.0,
+      "empirical_12q_full_coverage_pct": 40.0
+    },
+    {
+      "shots": 128,
+      "theoretical_exact_prob": 0.99587,
+      "theoretical_poisson_approx": 0.99465,
+      "empirical_16q_avg_observed": 15.8,
+      "empirical_16q_full_coverage_pct": 80.0,
+      "empirical_12q_full_coverage_pct": 80.0
+    },
+    {
+      "shots": 256,
+      "theoretical_exact_prob": 1.0,
+      "theoretical_poisson_approx": 1.0,
+      "empirical_16q_avg_observed": 16.0,
+      "empirical_16q_full_coverage_pct": 100.0,
+      "empirical_12q_full_coverage_pct": 100.0
+    },
+    {
+      "shots": 512,
+      "theoretical_exact_prob": 1.0,
+      "theoretical_poisson_approx": 1.0,
+      "empirical_16q_avg_observed": 16.0,
+      "empirical_16q_full_coverage_pct": 100.0,
+      "empirical_12q_full_coverage_pct": 100.0
+    },
+    {
+      "shots": 1024,
+      "theoretical_exact_prob": 1.0,
+      "theoretical_poisson_approx": 1.0,
+      "empirical_16q_avg_observed": 16.0,
+      "empirical_16q_full_coverage_pct": 100.0,
+      "empirical_12q_full_coverage_pct": 100.0
+    },
+    {
+      "shots": 2048,
+      "theoretical_exact_prob": 1.0,
+      "theoretical_poisson_approx": 1.0,
+      "empirical_16q_avg_observed": 16.0,
+      "empirical_16q_full_coverage_pct": 100.0,
+      "empirical_12q_full_coverage_pct": 100.0
+    },
+    {
+      "shots": 4096,
+      "theoretical_exact_prob": 1.0,
+      "theoretical_poisson_approx": 1.0,
+      "empirical_16q_avg_observed": 16.0,
+      "empirical_16q_full_coverage_pct": 100.0,
+      "empirical_12q_full_coverage_pct": 100.0
+    }
+  ],
+  "timing_breakdown": {
+    "classical_xor_mean_us": 76.01,
+    "classical_xor_std_us": 20.52,
+    "16q_circuit_build_mean_ms": 10.46,
+    "16q_aer_simulation_mean_ms": 89.97,
+    "16q_reconstruction_mean_ms": 0.23,
+    "16q_total_pipeline_mean_ms": 100.66,
+    "classical_speed_advantage_ratio": 1324.3
+  },
+  "sample_evaluations_count": 70
+}

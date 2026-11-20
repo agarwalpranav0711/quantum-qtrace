@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-11-20T12:31:12Z",
+  "resolution_benchmarks": [
+    {
+      "resolution": "256x256",
+      "width": 256,
+      "height": 256,
+      "file_size_kb": 10.3,
+      "ingestion_ms": 1.77,
+      "sha256_ms": 13.9,
+      "ela_ms": 55.17,
+      "noise_ms": 15.6,
+      "cmfd_ms": 7.78,
+      "consensus_ms": 0.11,
+      "total_forensic_ms": 78.66,
+      "canvas_sift_ms": 7.61,
+      "sift_keypoints_found": 3
+    },
+    {
+      "resolution": "512x512",
+      "width": 512,
+      "height": 512,
+      "file_size_kb": 37.2,
+      "ingestion_ms": 7.84,
+      "sha256_ms": 10.8,
+      "ela_ms": 44.66,
+      "noise_ms": 51.99,
+      "cmfd_ms": 54.19,
+      "consensus_ms": 0.11,
+      "total_forensic_ms": 150.95,
+      "canvas_sift_ms": 24.4,
+      "sift_keypoints_found": 7
+    },
+    {
+      "resolution": "1024x1024",
+      "width": 1024,
+      "height": 1024,
+      "file_size_kb": 142.82,
+      "ingestion_ms": 1.9,
+      "sha256_ms": 15.89,
+      "ela_ms": 171.08,
+      "noise_ms": 189.89,
+      "cmfd_ms": 177.8,
+      "consensus_ms": 0.2,
+      "total_forensic_ms": 538.97,
+      "canvas_sift_ms": 75.57,
+      "sift_keypoints_found": 44
+    },
+    {
+      "resolution": "1920x1080 (FHD)",
+      "width": 1920,
+      "height": 1080,
+      "file_size_kb": 280.11,
+      "ingestion_ms": 1.84,
+      "sha256_ms": 10.98,
+      "ela_ms": 324.51,
+      "noise_ms": 368.69,
+      "cmfd_ms": 684.18,
+      "consensus_ms": 1.0,
+      "total_forensic_ms": 1378.37,
+      "canvas_sift_ms": 485.46,
+      "sift_keypoints_found": 73
+    }
+  ],
+  "pdf_generation_benchmark": {
+    "mean_latency_ms": 93.68,
+    "min_latency_ms": 76.05,
+    "max_latency_ms": 123.8,
+    "pdf_file_size_kb": 8.82
+  }
+}
