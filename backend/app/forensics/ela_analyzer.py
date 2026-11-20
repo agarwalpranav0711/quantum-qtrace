@@ -185,10 +185,10 @@ class ErrorLevelAnalyzer(ForensicTechnique):
                             else:
                                 block_errors[r, c] = 0.0
 
-                    # Anomaly threshold: mean + roi_threshold_std * std
+                    # Anomaly threshold: mean + roi_threshold_std * std, with absolute minimum floor of 14.0
                     b_mean = np.mean(block_errors[block_errors > 0]) if np.any(block_errors > 0) else 0.0
                     b_std = np.std(block_errors[block_errors > 0]) if np.any(block_errors > 0) else 1.0
-                    anomaly_threshold = b_mean + roi_threshold_std * b_std
+                    anomaly_threshold = max(14.0, b_mean + roi_threshold_std * b_std)
 
                     anomalous_blocks = (block_errors > anomaly_threshold).astype(np.uint8)
 

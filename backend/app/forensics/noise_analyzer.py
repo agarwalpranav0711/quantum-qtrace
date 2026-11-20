@@ -36,7 +36,7 @@ class NoiseAnalyzer(ForensicTechnique):
     default_parameters: Dict[str, Any] = {
         "block_size": 16,
         "filter_kernel": 3,
-        "variance_threshold_sigma": 2.8,
+        "variance_threshold_sigma": 3.2,
     }
     limitations: List[str] = [
         "Heavily saturated highlights (pure white) and underexposed shadows (pure black) naturally exhibit suppressed sensor noise.",
@@ -185,7 +185,7 @@ class NoiseAnalyzer(ForensicTechnique):
                 roi_idx = 0
                 for label in range(1, num_labels):
                     area = stats[label, cv2.CC_STAT_AREA]
-                    if area >= 2:
+                    if area >= 8:
                         bx = int(stats[label, cv2.CC_STAT_LEFT] * block_size)
                         by = int(stats[label, cv2.CC_STAT_TOP] * block_size)
                         bw = int(stats[label, cv2.CC_STAT_WIDTH] * block_size)

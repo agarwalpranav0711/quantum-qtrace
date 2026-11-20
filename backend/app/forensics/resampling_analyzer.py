@@ -116,7 +116,7 @@ class ResamplingAnalyzer(ForensicTechnique):
                     # Flag blocks where local variance is < 15% of image median variance
                     med_var = np.median(block_lap_vars)
                     if med_var > 10.0:  # Only meaningful if image has baseline texture
-                        smooth_blocks = (block_lap_vars < (med_var * smoothing_thresh)).astype(np.uint8)
+                        smooth_blocks = ((block_lap_vars < 2.0) & (block_lap_vars < (med_var * smoothing_thresh))).astype(np.uint8)
                         # Require isolated smooth blocks surrounded by texture (morphological check)
                         kernel = np.ones((3, 3), np.uint8)
                         dilated = cv2.dilate(smooth_blocks, kernel, iterations=1)
